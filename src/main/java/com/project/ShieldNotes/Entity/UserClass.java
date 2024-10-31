@@ -46,7 +46,7 @@ public class UserClass {
     private String password;
 
     @ManyToOne(fetch = FetchType.EAGER , cascade = {CascadeType.MERGE})
-    @JoinColumn(name = "role_id" , referencedColumnName = "roleId")
+    @JoinColumn(name = "role_Id" , referencedColumnName = "roleId")
     @JsonBackReference
     @ToString.Exclude
     private Role role;
