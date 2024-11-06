@@ -1,8 +1,11 @@
 package com.project.ShieldNotes.security.response;
 
+import lombok.Data;
+
 import java.time.LocalDate;
 import java.util.List;
 
+@Data
 public class UserInfoResponse {
     private Long id;
     private String username;
