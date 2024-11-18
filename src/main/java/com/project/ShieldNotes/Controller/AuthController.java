@@ -60,7 +60,6 @@ public class AuthController {
     @PostMapping("/public/signin")
     public ResponseEntity<?> authenticateUser(@RequestBody LoginRequest loginRequest) {
 
-
         Authentication authentication;
         try {
             authentication = authenticationManager
